@@ -2,7 +2,7 @@ name: Hello world
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "03,13,23,33,43,53 * * * *"
 jobs:
   hello-world-job:
     runs-on: ubuntu-latest
